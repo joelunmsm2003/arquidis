@@ -2553,7 +2553,7 @@
 ------------------------------------*/
 .parallax-counter-v1 {
     padding: 130px 0;
-    background: url(../img/nos_divertimos_img_parallax.png) repeat fixed;
+    background: url(../img/morado.jpg) repeat fixed;
     background-size: cover;
 }
 
@@ -3640,6 +3640,47 @@
   background-size: cover;
   background-position: center center;
 }
+
+.interactive-slider-comentario{
+  z-index: 1;
+  padding: 100px 0;
+  position: relative;
+
+  background: url(../img/morado.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.interactive-slider-contacto{
+  z-index: 1;
+  padding: 100px 0;
+  position: relative;
+
+  background: #23292e;
+  background-size: cover;
+  background-position: center center;
+}
+.interactive-slider-blog{
+  z-index: 1;
+  padding: 100px 0;
+  position: relative;
+
+  background: #2e353c;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.interactive-slider-cliente{
+  z-index: 1;
+  padding: 150px 0;
+  position: relative;
+
+  background: #fff;
+  background-size: cover;
+  background-position: center center;
+}
+
 
 .interactive-slider-v2-md {
   padding: 220px 0;

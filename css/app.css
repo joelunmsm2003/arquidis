@@ -6,11 +6,137 @@
  * Website: http://htmlstream.com
 */
 
+.input{
+	background: none;
+    border-radius: 5px !important;
+    padding: 22px;
+    border: 1px solid #c3d600;
+    margin-bottom: 10px;
+}
+.numero{
+	color: #c3d600;
+    width: 40px;
+    height: 40px;
+    /* background: #234; */
+    border: 2px solid #c3d600;
+    border-radius: 20px;
+    /* padding: 5px; */
+    padding-top: 3px;
+    font-family: GeometryBold;
+    font-size: 20px;
+}
+
+.redondo{
+padding-top: 16px;
+padding-right: 16px;
+right: 0;
+position: absolute;
+}
+
+.detalle{
+	padding-bottom: 16px;
+  padding-left: 16px;
+  bottom: 0;
+  left:0;
+  position: absolute;
+}
+
+.detalle1{
+	font-family: "Geometry";
+  font-size: 20px;
+  color: #fff;
+}
+
+.detalle2{
+
+color: #b3c02b;
+letter-spacing: 3px;
+font-family: GeometryBold;
+font-size: 14px;
+}
+
+.no-gutters{
+	margin-right: 0px; 
+    margin-left: 0px; 
+
+}
+
+.cliente img{
+	padding: 70px;
+}
+.comentario{
+	color: #fff;
+    font-family: Geometry;
+    font-size: 16px;
+    
+}
+	.one{
+
+		position: relative;
+		max-width: 262px;
+
+	}
+	.one_1{
+
+		position: relative;
+		max-width: 568px;
+
+	}
+
+	.one_2{
+
+		position: relative;
+		max-width: 548px;
+		margin-bottom: 26px;
+
+	}
+
+
+	.one .two,.one_1 .two,.one_2 .two{
+
+
+		opacity:0;
+
+		position: absolute;
+		top:0;
+		right: 0;
+		left: 0;
+		bottom:0;
+		-webkit-transition: opacity .6s; /* For Safari 3.1 to 6.0 */
+    	transition: opacity .6s;
+    	
+    	transition: opacity .6s;
+
+
+
+	}
+
+		.two:hover{
+
+
+
+		
+		background: #4b4261;
+		opacity:.7;
+		-webkit-transition: opacity .6s; /* For Safari 3.1 to 6.0 */
+    	transition: opacity .6s;
+
+
+
+		
+
+
+
+
+	}
 /*Thematic Break
 ------------------------------------*/
 hr {
 	margin: 30px 0;
+	border-top: 1px solid #c3d600;
 }
+
+
 
 hr.hr-xs {
 	margin: 10px 0;
@@ -27,19 +153,25 @@ hr.hr-lg {
 /*Headings
 ------------------------------------*/
 h1 {
-	font-size: 28px;
-	line-height: 35px;
+	font-size: 44px;
+	line-height: 44px;
+	color:#c3d600;
+	font-family: 'GeometryBold', sans-serif;
 }
 h2 {
 	font-size: 24px;
 	line-height: 33px;
+	color:#c3d600;
 }
 h3 {
 	font-size: 20px;
 	line-height: 27px;
+	color:#000;
 }
 h4 {
-	line-height: 25px;
+	font-family: Geometry;
+    color: #c3d600;
+    font-size: 20px;
 }
 h5 {
 	line-height: 20px;
@@ -48,16 +180,34 @@ h6 {
 	line-height: 18px;
 }
 
+.ofrecemos{
+	padding: 20px;
+	padding-top: 0px;
+}
+.ofrecemos p{
+	font-family: 'Geometry', sans-serif;
+	font-size: 17px;
+
+}
+
+.detalleblog{
+
+	color: #fff;
+    font-family: Geometry;
+    font-size: 15px;
+}
+
 .font-open-sans {
 	font-family: "Open Sans", Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #555;
+	
 	margin-top: 5px;
 	text-shadow: none;
 	font-weight: normal;
-	font-family: 'Roboto', sans-serif;
+	
+	
 }
 
 h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
